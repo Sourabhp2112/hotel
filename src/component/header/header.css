@@ -1,0 +1,151 @@
+
+.headerSec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003580;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.headerDivList{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    /* position: relative; */
+}
+.headerDivList.listMode{
+    margin-bottom: 40px;
+}
+.headerDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+.headerList{
+    font-size: 17px;
+    display: flex;
+    gap: 10px;
+}
+#headerStay{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.headDetails{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: white ;
+}
+.headTitle{
+
+    font-size: 37px;
+}
+.headPara{
+    font-size: 18px;
+}
+.headButton{
+    width: 130px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    margin-bottom: 80px;
+    
+}
+.headerSearch{
+    border: 2px solid rgb(255, 230, 0);
+    border-radius: 5px;
+    width: 68%;
+    height: 50px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 10px;
+    color: grey;
+    font-size: 17px;
+    /* margin-bottom: 20px; */
+}
+.headerSearchItem{
+    display: flex;
+    gap: 10px;
+
+}
+.headerSearchItem input{
+    border: none;
+    outline: none;
+}
+
+
+.headSearchButton{
+    width: 80px;
+    height: 35px;
+    background-color: #003580e1;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.headDate{
+    position: absolute;
+    margin-top: 35px;
+}
+/* 9039043197 */
+/* 2year bond check  6moths of training 8 to 10 * after that 14 to 20/
+/* reactJs no bond 12 to 15 2.4 lpa location rnt mar south tukoganj 2 technical rounds */
+
+.options{
+    position: absolute;
+    top: 50px;
+    color: gray;
+    border-color: white;
+    background-color: white;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, );
+}
+.optionItems{
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.optionText{
+    font-size: 20px;
+}
+.optionCountDiv{
+    display: flex;
+    gap: 10px;
+}
+.optionCountDiv span{
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.optionCountDiv button{
+    font-size: 18px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #0071c2;
+    border: 1px solid #0071c2;
+}

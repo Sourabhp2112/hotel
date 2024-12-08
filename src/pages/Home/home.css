@@ -1,0 +1,14 @@
+
+.homeContainer{
+    /* width: 100%; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.homeTitle{
+    font-weight: bolder;
+    width: 1024px;
+    font-size: 25px;
+    padding: 30px;
+}

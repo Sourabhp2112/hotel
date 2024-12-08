@@ -1,0 +1,45 @@
+.pListSec{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pList{
+    width: 68%;
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.pListItem{
+    /* border: 2px solid red; */
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.pListItem img{
+    width: 100%;
+   height: 150px;
+   object-fit: cover;
+}
+.pListTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+}
+.pListTitle h1{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+.pListTitle h2{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    color: rgb(76, 75, 75);
+}
